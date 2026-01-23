@@ -1,7 +1,7 @@
 import gym_super_mario_bros
-from gym_super_mario_bros.actions import RIGHT_ONLY
+from gym_super_mario_bros.actions import RIGHT_ONLY #in the end i used a custom set of actions instead so you can safely remove this line
 from nes_py.wrappers import JoypadSpace
-from gym.wrappers import GrayScaleObservation, ResizeObservation, FrameStack
+from gym.wrappers import GrayScaleObservation, ResizeObservation
 import neat
 import os
 import numpy as np
@@ -12,8 +12,7 @@ max_steps = 5000
 max_generations = 2500
 generation = -1
 
-
-def create_env():
+def create_env(): 
     env = gym_super_mario_bros.make("SuperMarioBros-1-1-v0")
     env = JoypadSpace(env, [["right","B"], ["right", "A","B"]])
     env = GrayScaleObservation(env, keep_dim=False)
@@ -32,30 +31,26 @@ def eval_genome(genome, config):
     max_y = 0
     done = False
 
-    net = neat.nn.FeedForwardNetwork.create(genome, config)
+    net = neat.nn.FeedForwardNetwork.create(genome, config) # When I started training I forgot to change this, nonetheless it still worked
 
     while not done:
-        state_flat = np.array(state).flatten() / 255.0
+        state_flat = np.array(state).flatten() / 255.0 # normalise pixel values
         output = net.activate(state_flat)
         action = int(np.argmax(output))
         next_state, reward, done, info = env.step(action)
 
+        #This part is used to evaluate the fitness of every individual
         xpos = info["x_pos"]
         ypos = info["y_pos"]
         delta_x = xpos - previous_xpos
         delta_y = ypos - previous_ypos
         max_y = max(ypos, max_y)
-        fitness += reward
-        "fitness += reward + delta_x"
+        fitness += reward # you can learn more about this reward in the documentation of gym_super_mario_bros
         fitness += 0.01
         fitness += delta_x * 0.1
         if ypos > previous_ypos:
             fitness += 0.1
         max_x = max(xpos, max_x)
-
-        """if delta_y > 0:
-            fitness += 0.1"""
-        
 
         if delta_x <= 0:
             stuck_counter += 1
@@ -65,7 +60,7 @@ def eval_genome(genome, config):
         if stuck_counter > 250:
             fitness -= 100
             break
-
+        # dying and getting stuck is punished
         if done and not info.get('flag_get', False):
             fitness -= 150
             break
@@ -113,37 +108,7 @@ def run(config_file):
     print(f'\nBest genome:\n{winner!s}')
     print(f'Best fitness: {winner.fitness}')
 
-
-def test_genome(genome, config, render=True):
-    """Test a single genome in the environment."""
-    env = create_env()
-    state = env.reset()
-    net = neat.nn.FeedForwardNetwork.create(genome, config)
-
-    total_reward = 0
-    max_x = 0
-
-    for _ in range(max_steps):
-        if render:
-            env.render()
-
-        state_flat = np.array(state).flatten() / 255.0
-        output = net.activate(state_flat)
-        action = int(np.argmax(output))
-        next_state, reward, done, info = env.step(action)
-
-        total_reward += reward
-        max_x = max(max_x, info.get("x_pos", 0))
-        state = next_state
-
-        if done:
-            break
-
-    env.close()
-    print(f"Test - Total Reward: {total_reward}, Max X Position: {max_x}")
-    return total_reward, max_x
-
-
+#Training
 if __name__ == '__main__':
     local_dir = os.path.dirname(__file__)
     config_path = os.path.join(local_dir, 'config.ini')
@@ -153,3 +118,4 @@ if __name__ == '__main__':
         print("Please ensure 'config.ini' exists in the same directory as this script")
     else:
         run(config_path)
+
