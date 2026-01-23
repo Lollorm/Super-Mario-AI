@@ -10,6 +10,6 @@ An AI agent trained with the NeuroEvolution of Augmenting Topologies (NEAT) algo
 
 Best fitness over generations
 
-##NEAT implementation
+## NEAT implementation
 
-###Requirements
+### Requirements
