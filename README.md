@@ -15,6 +15,22 @@ Best fitness over generations
 
 The Gym Super Mario Bros environment was used to provide the game interface and training environment for the agent. Documentation can be found [here](https://pypi.org/project/gym-super-mario-bros/).
 
+```
+pip install gym-super-mario-bros
+```
+
+### To play manually:
+
+```
+gym_super_mario_bros -e 'SuperMarioBrosRandomStages-v0' -m 'human' --stages '1-4'
+```
+#### Controls
+wasd to move
+o to jump 
+p to run
+return to pause
+exit to exit
+
 ## NEAT implementation
 
 ### About NEAT
@@ -27,6 +43,7 @@ In this project, NEAT is implemented using the NEAT-Python library. The official
 
 ```
 pip install gym-super-mario-bros
+pip install 'numpy<2.0.0' #to fix error when creating env
 ```
 
 
