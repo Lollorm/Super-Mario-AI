@@ -19,11 +19,14 @@ The Gym Super Mario Bros environment was used to provide the game interface and 
 ### About NEAT
 
 NEAT (NeuroEvolution of Augmenting Topologies) is an evolutionary algorithm used to evolve artificial neural networks. It gradually optimizes both network structure and weights through evolutionary processes. A full description of the algorithm is available in the original [paper](https://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf).  
-In particular said algorithm was implemented the NEAT-python library. Documentation can be found [here](https://neat-python.readthedocs.io/en/latest/).
+In this project, NEAT is implemented using the NEAT-Python library. The official documentation can be found [here](https://neat-python.readthedocs.io/en/latest/).
 
 
 ### Requirements
 
+```
+pip install gym-super-mario-bros
+```
 
 
 work in progress
