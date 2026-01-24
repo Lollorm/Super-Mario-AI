@@ -12,9 +12,15 @@ Best fitness over generations
 
 ## Environment
 
-The Gym Super Mario Bros environment was used to provide the game interface and training environment for the agent. Documentation can be found [here](https://pypi.org/project/gym-super-mario-bros/)
+The Gym Super Mario Bros environment was used to provide the game interface and training environment for the agent. Documentation can be found [here](https://pypi.org/project/gym-super-mario-bros/).
 
 ## NEAT implementation
+
+### About NEAT
+
+NEAT (NeuroEvolution of Augmenting Topologies) is an evolutionary algorithm used to evolve artificial neural networks. It gradually optimizes both network structure and weights through evolutionary processes. A full description of the algorithm is available in the original [paper](https://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf).  
+In particular said algorithm was implemented the NEAT-python library. Documentation can be found [here](https://neat-python.readthedocs.io/en/latest/).
+
 
 ### Requirements
 
