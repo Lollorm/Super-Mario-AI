@@ -38,7 +38,7 @@ In this project, NEAT is implemented using the NEAT-Python library. The official
 ```
 pip install gym==0.25.1 gym-super-mario-bros==7.4.0 nes-py==8.2.1 neat-python==1.1.0 numpy==1.26.4 opencv-python==4.12.0.88
 ```
-
+### Defining a Fitness Function
 
 work in progress
 
