@@ -48,5 +48,5 @@ work in progress
 
 ### About DDQN
 
-![paper]([https://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf](https://arxiv.org/pdf/1509.06461))
+![paper](https://arxiv.org/pdf/1509.06461)
 
