@@ -36,9 +36,17 @@ In this project, NEAT is implemented using the NEAT-Python library. The official
 ### Requirements
 
 ```
-pip install gym-super-mario-bros
-pip install 'numpy<2.0.0' #to fix error when creating env
+pip install gym==0.25.1 gym-super-mario-bros==7.4.0 nes-py==8.2.1 neat-python==1.1.0 numpy==1.26.4 opencv-python==4.12.0.88
 ```
 
 
 work in progress
+
+## DDQN implementation
+
+### WIP
+
+### About DDQN
+
+[paper]([https://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf](https://arxiv.org/pdf/1509.06461))
+
