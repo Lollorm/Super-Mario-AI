@@ -40,6 +40,9 @@ pip install gym==0.25.1 gym-super-mario-bros==7.4.0 nes-py==8.2.1 neat-python==1
 ```
 ### Defining a Fitness Function
 
+When working with genetic algorithms, it all really comes down to defining a fitness function that accurately evaluates how well individuals perform a given task.  
+In particular, if we want to train an AI agent to, let's say, clear level 1-1 of Super Mario Bros, we should analyze what it really means to be a good player in Super Mario.
+
 work in progress
 
 ## DDQN implementation
