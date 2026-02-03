@@ -61,6 +61,6 @@ work in progress
 
 ### Environment
 
-This time I used OpenAI's [Gym Retro](https://openai.com/index/gym-retro/) because it supports custom levels and allows direct access to RAM values, making it possible to inspect memory locations during gameplay.
+This time I used OpenAI's [Gym Retro](https://openai.com/index/gym-retro/) environment because it supports custom levels and allows direct access to RAM values, making it possible to inspect memory locations during gameplay.
 
 
