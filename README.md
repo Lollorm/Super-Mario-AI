@@ -61,7 +61,14 @@ Here's an example of what a poorly defined fitness function can lead to.
 
 In this implementation, the fitness function evaluates Mario’s speed and position along the x-axis. Penalties are applied if Mario gets stuck or dies. In addition, a small reward is given for jumping, to encourage the evolution of individuals who jump obstacles and advance further.
 
-
+$
+F = \max \Bigg(
+0.1,\;
+\sum_{t=1}^{T} \Big( r_t + 0.01 + 0.1 \,(x_t - x_{t-1}) + 0.1 \,\mathbf{1}_{y_t > y_{t-1}} \Big)
++ \max_t(x_t)
++ R_{\text{term}}
+\Bigg)
+$
 
 work in progress
 
