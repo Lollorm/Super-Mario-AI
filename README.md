@@ -85,7 +85,7 @@ where the terminal reward $R_{\text{term}}$ is:
 ```math
 R_{\text{term}} =
 \begin{cases}
-+10{,}000 & \text{if the flag is reached} \\
++10000 & \text{if the flag is reached} \\
 -150 & \text{if the agent dies before reaching the flag} \\
 -100 & \text{if the agent gets stuck}
 \end{cases}
