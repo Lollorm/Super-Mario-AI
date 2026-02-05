@@ -114,4 +114,10 @@ work in progress
 
 This time I used OpenAI's [Gym Retro](https://openai.com/index/gym-retro/) environment because it supports custom levels and allows direct access to RAM values, making it possible to inspect memory locations during gameplay.
 
+## PPO implementation
+
+https://arxiv.org/pdf/1707.06347v2
+
+https://stable-baselines3.readthedocs.io/en/master/modules/ppo.html
+
 
