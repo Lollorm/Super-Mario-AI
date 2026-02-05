@@ -106,6 +106,10 @@ work in progress
 
 ### WIP
 
+![inverted pendulum](https://github.com/Lollorm/Super-Mario-Bros-AI/blob/main/DDQN/assets/images/cartpole_qlearning-episode-0.gif)
+
+An agent I made in the past balancing an inverted pendulum (using a Q-table).
+
 ### About DDQN
 
 [paper](https://arxiv.org/pdf/1509.06461)
