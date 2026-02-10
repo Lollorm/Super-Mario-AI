@@ -123,8 +123,6 @@ An agent I made in the past balancing an inverted pendulum (using a Q-table).
 
 ## PPO implementation
 
----
-
 ### About PPO
 
 Proximal policy optimization (PPO) is a reinforcement learning algorithm developed by researchers at OpenAI, specifically, it is a policy gradient method.
