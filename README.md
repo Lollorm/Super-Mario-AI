@@ -120,8 +120,8 @@ An agent I made in the past balancing an inverted pendulum (using a Q-table).
 
 ### Environment
 
-This time I used OpenAI's [Gym Retro](https://openai.com/index/gym-retro/) environment because it supports custom levels and allows direct access to RAM values, making it possible to inspect memory locations during gameplay.
-In particular I wanted to try training an agent on [Super Mario World](https://en.wikipedia.org/wiki/Super_Mario_World) as it offers a more complex action space, in particular I am curious about the possibility of an agent learning trickjumps or glitches (Maybe an Agent could learn Arbitrary code execution given the proper environment).
+This time I used OpenAI's [Gym Retro](https://openai.com/index/gym-retro/) environment because it supports custom levels and allows direct access to RAM values, making it possible to inspect memory locations during gameplay.  
+In particular I wanted to try training an agent on [Super Mario World](https://en.wikipedia.org/wiki/Super_Mario_World) as it offers a more complex action space, in particular I am curious about the possibility of an agent learning trickjumps or glitches (Maybe an Agent could learn Arbitrary code execution given the proper environment).  
 To do this I had to manually [integrate](https://retro.readthedocs.io/en/latest/integration.html) the game in Gym Retro, find the memory addresses of the variables that were needed and implement a reward function. By adding the necessary JSON files the game can be used as a gym environment. 
 
 https://arxiv.org/pdf/1707.06347v2
