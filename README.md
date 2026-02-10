@@ -101,7 +101,7 @@ R_{\text{term}} =
 
 ### Try it Yourself
 
-The code to train the agent can be found in the [`NEAT`](NEAT-Neuroevolution-of-Augmenting-Topologies/) folder in this repository, it can be easily modified to change the behaviour of the agent, for example you can penalize slow agents to encourage the evolution of faster specimens that can reach speeds on par with glitchless world records.
+The code to train the agent can be found in the [`NEAT`](NEAT Neuroevolution of Augmenting Topologies/) folder in this repository, it can be easily modified to change the behaviour of the agent, for example you can penalize slow agents to encourage the evolution of faster specimens that can reach speeds on par with glitchless world records.
 
 work in progress
 
