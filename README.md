@@ -1,4 +1,4 @@
-# Super Mario Bros AI
+# Super Mario AI
 
 ---
 
