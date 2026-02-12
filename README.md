@@ -1,4 +1,4 @@
-# Super $${\color{red}Mario}$$ AI
+# $${\color{red}Super Mario AI}$$
 
 ---
 
