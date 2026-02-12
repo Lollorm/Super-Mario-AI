@@ -184,7 +184,7 @@ For example in [scenario.json](https://github.com/Lollorm/Super-Mario-AI/blob/ma
       "level_end": {
         "reward": 2000.0
     
-     }
+      }
     }
   }
 }
