@@ -203,7 +203,7 @@ This PPO implementation uses a Convolutional Neural Network (CNN) policy to proc
 
 <img src="https://github.com/Lollorm/Super-Mario-Bros-AI/blob/main/DDQN/assets/images/cartpole_qlearning-episode-0.gif" width="35%" height="35%"/>
 
-An agent I made in the past balancing an inverted pendulum (using a @@Q-table@@).
+An agent I made in the past balancing an inverted pendulum (using a Q-table).
 
 ---
 
