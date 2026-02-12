@@ -153,10 +153,6 @@ To do this I had to manually [integrate](https://retro.readthedocs.io/en/latest/
 
 ---
 
-### Defining an input
-
----
-
 ### Network Architecture
 
 This PPO implementation uses a Convolutional Neural Network (CNN) policy to process visual observations directly from the game screen.
