@@ -194,7 +194,7 @@ For example in [scenario.json](https://github.com/Lollorm/Super-Mario-AI/blob/ma
 ### Network Architecture
 
 This PPO implementation uses a Convolutional Neural Network (CNN) policy to process visual observations directly from the game screen.  
-You can visualize the architecture by printing model.policy:
+You can visualize the architecture by printing [model.policy](https://stable-baselines3.readthedocs.io/en/master/guide/custom_policy.html):
 
 ```
 ActorCriticCnnPolicy(
