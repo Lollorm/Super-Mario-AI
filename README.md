@@ -193,7 +193,35 @@ For example in [scenario.json](https://github.com/Lollorm/Super-Mario-AI/blob/ma
 
 ### Network Architecture
 
-This PPO implementation uses a Convolutional Neural Network (CNN) policy to process visual observations directly from the game screen.
+This PPO implementation uses a Convolutional Neural Network (CNN) policy to process visual observations directly from the game screen.  
+You can visualize the architecture by printing model.policy:
+
+```
+ActorCriticCnnPolicy(
+  (features_extractor): NatureCNN(
+    (cnn): Sequential(
+      (0): Conv2d(3, 32, kernel_size=(8, 8), stride=(4, 4))
+      (1): ReLU()
+      (2): Conv2d(32, 64, kernel_size=(4, 4), stride=(2, 2))
+      (3): ReLU()
+      (4): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (5): ReLU()
+      (6): Flatten(start_dim=1, end_dim=-1)
+    )
+    (linear): Sequential(
+      (0): Linear(in_features=43008, out_features=512, bias=True)
+      (1): ReLU()
+    )
+  )
+  (mlp_extractor): MlpExtractor(
+    (shared_net): Sequential()
+    (policy_net): Sequential()
+    (value_net): Sequential()
+  )
+  (action_net): Linear(in_features=512, out_features=12, bias=True)
+  (value_net): Linear(in_features=512, out_features=1, bias=True)
+)
+```
 
 ---
 
