@@ -111,7 +111,7 @@ The code to train the agent can be found in the [`NEAT`](NEAT%20Neuroevolution%2
 
 ![Yoshi Island 2](https://github.com/Lollorm/Super-Mario-AI/blob/main/PPO%20Proximal%20Policy%20Optimization/Assets/YoshiIsland2.gif)
 
-An agent trained only on Yoshi Island 1 beating Yoshi Island 2.
+An agent trained only on Yoshi Island 1 beating Yoshi Island 2 (look what he does with the green koopa).
 
 Proximal policy optimization (PPO) is a reinforcement learning algorithm developed by researchers at OpenAI, specifically, it is a policy gradient method.
 It has proven effective in challenging environments, for example an agent trained with this algorithm (OpenAI Five) was the first AI to [beat the world champions in an esports game](https://openai.com/index/openai-five-defeats-dota-2-world-champions/), and therefore it is perfect for Mario.
