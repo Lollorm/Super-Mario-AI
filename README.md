@@ -226,7 +226,7 @@ ActorCriticCnnPolicy(
 
 ### Training On Random Levels
 
-![]()
+![RandomLevelTraining](https://github.com/Lollorm/Super-Mario-AI/blob/main/PPO%20Proximal%20Policy%20Optimization/Assets/YoshiIsland2RandomLevelTraining.gif)
 
 An agent trained on random levels beating Yoshi Island 2.
 
