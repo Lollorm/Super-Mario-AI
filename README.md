@@ -236,6 +236,10 @@ To encourage generalization, the agent can be trained across a list of similar l
 
 ---
 
+### Donut Plains 4
+
+---
+
 ## DDQN implementation
 
 ### $${\color{red}WIP}$$
