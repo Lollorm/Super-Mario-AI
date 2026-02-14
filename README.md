@@ -222,6 +222,9 @@ ActorCriticCnnPolicy(
   (value_net): Linear(in_features=512, out_features=1, bias=True)
 )
 ```
+---
+
+### Training On Random Levels
 
 ---
 
