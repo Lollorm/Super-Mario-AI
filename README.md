@@ -170,7 +170,7 @@ For example in [scenario.json](https://github.com/Lollorm/Super-Mario-AI/blob/ma
   },
   "reward": {
     "variables": {
-      "x": {
+      "mario_x": {
         "reward": 1.0
       },
       "score": {
