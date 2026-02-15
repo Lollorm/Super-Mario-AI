@@ -236,7 +236,9 @@ To encourage generalization, the agent can be trained across a list of similar l
 
 ---
 
-### Donut Plains 4
+### Donut Plains 3
+
+In gym-retro it is called Donut Plains 4.
 
 ---
 
