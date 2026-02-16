@@ -9,7 +9,7 @@
 An AI agent trained with the NeuroEvolution of Augmenting Topologies (NEAT) algorithm successfully beating Level 1-1  
 (Even going as far as learning a frame/pixel perfect glitch called 'wall jump')
 
-![Best fitness over generations](https://github.com/Lollorm/Super-Mario-Bros-AI/blob/main/NEAT%20Neuroevolution%20of%20Augmenting%20Topologies/First%20agent%20that%20managed%20to%20beat%201-1/fitness_progress_0_to_350.png)
+<img src="https://github.com/Lollorm/Super-Mario-Bros-AI/blob/main/NEAT%20Neuroevolution%20of%20Augmenting%20Topologies/First%20agent%20that%20managed%20to%20beat%201-1/fitness_progress_0_to_350.png" width="500"/>
 
 Best fitness over generations of the previous agent (The best individual of generation 352 managed to beat the level).
 
@@ -193,10 +193,7 @@ For example in [scenario.json](https://github.com/Lollorm/Super-Mario-AI/blob/ma
   }
 }
 ```
-
-<img src="https://github.com/Lollorm/Super-Mario-AI/blob/main/PPO%20Proximal%20Policy%20Optimization/Assets/GameIntegrationGUI.png" width="50%" height="50%"/>
 <img src="https://github.com/Lollorm/Super-Mario-AI/blob/main/PPO%20Proximal%20Policy%20Optimization/Assets/GameIntegrationGUI.png" width="500"/>
-
 
 Me searching for the memory address for holding a shell.
 
@@ -249,7 +246,7 @@ To encourage generalization, the agent can be trained across a list of similar l
 
 ### Donut Plains 3
 
-<img src="https://github.com/Lollorm/Super-Mario-AI/blob/main/PPO%20Proximal%20Policy%20Optimization/Assets/DonutPlains4Best.gif" width="40%" height="40%"/>
+<img src="https://github.com/Lollorm/Super-Mario-AI/blob/main/PPO%20Proximal%20Policy%20Optimization/Assets/DonutPlains4Best.gif" width="500"/>
 
 In gym-retro it is called Donut Plains 4.
 
@@ -259,7 +256,7 @@ In gym-retro it is called Donut Plains 4.
 
 ### $${\color{red}WIP}$$
 
-<img src="https://github.com/Lollorm/Super-Mario-Bros-AI/blob/main/DDQN/assets/images/cartpole_qlearning-episode-0.gif" width="35%" height="35%"/>
+<img src="https://github.com/Lollorm/Super-Mario-Bros-AI/blob/main/DDQN/assets/images/cartpole_qlearning-episode-0.gif" width="500"/>
 
 An agent I made in the past balancing an inverted pendulum (using a Q-table).
 
