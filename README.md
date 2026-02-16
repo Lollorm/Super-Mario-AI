@@ -189,6 +189,11 @@ For example in [scenario.json](https://github.com/Lollorm/Super-Mario-AI/blob/ma
   }
 }
 ```
+
+![GameIntegrationGUI](https://github.com/Lollorm/Super-Mario-AI/blob/main/PPO%20Proximal%20Policy%20Optimization/Assets/GameIntegrationGUI.png)
+
+Me searching for the memory address for holding a shell.
+
 ---
 
 ### Network Architecture
