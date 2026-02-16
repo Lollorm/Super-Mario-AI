@@ -243,6 +243,8 @@ To encourage generalization, the agent can be trained across a list of similar l
 
 ### Donut Plains 3
 
+![DonutPlains4](https://github.com/Lollorm/Super-Mario-AI/blob/main/PPO%20Proximal%20Policy%20Optimization/Assets/DonutPlains4Best.gif)
+
 In gym-retro it is called Donut Plains 4.
 
 ---
