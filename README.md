@@ -9,7 +9,7 @@
 An AI agent trained with the NeuroEvolution of Augmenting Topologies (NEAT) algorithm successfully beating Level 1-1  
 (Even going as far as learning a frame/pixel perfect glitch called 'wall jump')
 
-<img src="https://github.com/Lollorm/Super-Mario-Bros-AI/blob/main/NEAT%20Neuroevolution%20of%20Augmenting%20Topologies/First%20agent%20that%20managed%20to%20beat%201-1/fitness_progress_0_to_350.png" width="500"/>
+<img src="https://github.com/Lollorm/Super-Mario-Bros-AI/blob/main/NEAT%20Neuroevolution%20of%20Augmenting%20Topologies/First%20agent%20that%20managed%20to%20beat%201-1/fitness_progress_0_to_350.png" width="800"/>
 
 Best fitness over generations of the previous agent (The best individual of generation 352 managed to beat the level).
 
