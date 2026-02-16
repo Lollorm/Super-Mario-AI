@@ -125,8 +125,8 @@ This time, I implemented it using stable-baselines3 [library](https://stable-bas
 
 If you want to learn more about this algorithm, the original paper that describes it can be found [here](https://arxiv.org/pdf/1707.06347v2).
 
-> **Note**  
-> The trained model zip files are approximately 260 MB and cannot be uploaded to GitHub due to size limits.
+**Note**  
+The trained model zip files are approximately 260 MB and cannot be uploaded to GitHub due to size limits.
 
 
 ---
