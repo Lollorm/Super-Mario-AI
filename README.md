@@ -133,7 +133,7 @@ The trained model zip files are approximately 260 MB and cannot be uploaded to G
 
 ### Requirements
 
-You can import the requirements from [this](https://github.com/Lollorm/Super-Mario-AI/blob/main/PPO%20Proximal%20Policy%20Optimization/requirements.txt) file.
+You can import the requirements from [this](https://github.com/Lollorm/Super-Mario-AI/blob/main/PPO%20Proximal%20Policy%20Optimization/requirements.txt) file.  
 This time I am using python 3.8.10 and pip 22.3.1
 
 ---
