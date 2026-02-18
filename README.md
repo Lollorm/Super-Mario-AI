@@ -16,7 +16,7 @@ Best fitness over generations of the previous agent (The best individual of gene
 - [NEAT Implementation](#neat-implementation)
   - [About NEAT](#about-neat)
   - [Environment](#environment)
-    - [Requirements](requirements)
+  - [Requirements](#requirements)
   - [Defining an Input](#defining-an-input)
   - [Defining a Fitness Function](#defining-a-fitness-function)
 - [PPO Implementation](#ppo-implementation)
