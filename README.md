@@ -283,9 +283,7 @@ An agent I made in the past balancing an inverted pendulum (using a Q-table).
 
 [paper](https://arxiv.org/pdf/1509.06461)
 
----
 
-### Acknowledgments
 
 
 
