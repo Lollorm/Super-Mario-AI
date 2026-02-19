@@ -265,7 +265,7 @@ To encourage generalization, the agent can be trained across a list of similar l
 
 An agent trained on Donut Plains 3 (In gym-retro it is called Donut Plains 4).
 
-Donut Plains 3 is a challenging level for an AI as it includes moving platforms. After a bit of trial and error the agent manages to advance in the level surprisingly well, sadly in the middle it tries to use the on/off switch but it fails to wait for the moving platform. Nonetheless it's still impressive how an agent trained with PPO manages to adapt to moving platforms in such a short time. it's possible that by giving it enough time and by shaping the reward function to also encourage waiting for the platform, an AI agent could beat this level. 
+Donut Plains 3 is a challenging level for an AI as it includes many moving platforms. After a bit of trial and error the agent manages to advance in the level surprisingly well, sadly in the middle it tries to use the on/off switch but it fails to wait for the moving platform. Nonetheless it's still impressive how an agent trained with PPO manages to adapt to moving platforms in such a short time. it's possible that by giving it enough time and by shaping the reward function to also encourage waiting for the platform, an AI agent could beat this level. 
 
 ---
 
