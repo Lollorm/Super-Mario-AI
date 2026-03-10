@@ -4,6 +4,7 @@
 ---
 
 [![Watch the video](https://youtu.be/6FQKz-yAt5Y)](https://youtu.be/6FQKz-yAt5Y)
+[![Watch the video](https://img.youtube.com/vi/6FQKz-yAt5Y/maxresdefault.jpg)](https://youtu.be/6FQKz-yAt5Y)
 
 
 
