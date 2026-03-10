@@ -3,8 +3,10 @@
 
 ---
 
-[![Watch the video](https://youtu.be/6FQKz-yAt5Y)](https://youtu.be/6FQKz-yAt5Y)
-[![Watch the video](https://img.youtube.com/vi/6FQKz-yAt5Y/maxresdefault.jpg)](https://youtu.be/6FQKz-yAt5Y)
+Here's my youtube video where I explain this project:
+<a href="https://youtu.be/6FQKz-yAt5Y">
+  <img src="https://img.youtube.com/vi/6FQKz-yAt5Y/maxresdefault.jpg" width="800">
+</a>
 
 
 
